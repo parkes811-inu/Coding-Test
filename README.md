@@ -3,7 +3,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 <details>
 <summary>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="2%" /> 내가 지금 배우는 ... 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="2%" /> 내가 지금 준비중인 코딩테스트 언어는 ... 
 </summary>
    <br>
   
