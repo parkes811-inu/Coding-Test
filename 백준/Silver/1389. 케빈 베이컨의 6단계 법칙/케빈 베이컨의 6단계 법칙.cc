@@ -23,7 +23,7 @@ void BFS(int start) {
 		for (int i = 0; i < node[cur].size(); i++) {
 			int next = node[cur][i];
 
-			if (!visited[next] && next != start) {
+			if (!visited[next] ) {
 				dist[next] = dist[cur] + 1;
 				visited[next] = true;
 				q.push(next);
