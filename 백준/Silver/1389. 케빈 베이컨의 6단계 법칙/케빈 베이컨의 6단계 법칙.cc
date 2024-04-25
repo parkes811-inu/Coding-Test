@@ -23,7 +23,7 @@ void BFS(int start) {
 		for (int i = 0; i < node[cur].size(); i++) {
 			int next = node[cur][i];
 
-			if (!visited[next]) {
+			if (!visited[next] && next != start) {
 				dist[next] = dist[cur] + 1;
 				visited[next] = true;
 				q.push(next);
@@ -57,9 +57,7 @@ int main(void) {
 
 		int sum = 0;
 		for (int j = 1; j <= n; j++) {
-			if (i == j) {
-				continue;
-			}
+			
 			sum = sum + dist[j];
 		}
 		answer[i] = sum;
