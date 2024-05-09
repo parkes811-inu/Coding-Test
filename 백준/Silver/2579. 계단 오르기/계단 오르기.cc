@@ -14,10 +14,8 @@ int main() {
 
     // 초기화
     dp[1] = stair[1];
+    dp[2] = stair[1] + stair[2];
 
-    if (n >= 2) {
-        dp[2] = stair[1] + stair[2];
-    }
 
     // 점화식
     for (int i = 3; i <= n; ++i) {
