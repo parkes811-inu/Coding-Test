@@ -1,8 +1,7 @@
 # Coding-Test 준비
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=parkes811)](https://github.com/anuraghazra/github-readme-stats)
-
+### <p>🏆 Baekjoon solved rank 🏆</p>
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dmstj1049)](https://solved.ac/dmstj1049)
 
 <details>
 <summary>
