@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(void) {
+int main() {
     int t, n, m;
     cin >> t;
 
@@ -13,11 +13,12 @@ int main(void) {
         cin >> n >> m;
 
         long long answer = 1;
-        for (int i = 1; i <= n; ++i) {
+        for (int i = 1; i <= n; i++) {
+		        // 조합의 수를 구하는 공식
             answer *= (m - i + 1);  // m에서 m-n까지의 수를 곱함
             answer /= i;  // i로 나눔
         }
-        cout << answer << '\n';  // 각 결과 출력 후 줄바꿈
+        cout << answer << '\n';
     }
 
     return 0;
